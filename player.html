@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+ <script src="js/playerdata.js"></script>
+    <title>Player Data</title>
+</head>
+<body>
+
+  <div class="container">
+  <div class="row player-profile">
+  <div class="col-md-12">
+    <h6><a href="index.html">Back To Home Page</a></h6>
+  </div>
+ 
+  <div class="col-md-3" id="playerImage"></div>
+   <div class="col-md-9">
+     <h1 id="playerName"></h1>
+     <h3 id="playerId"></h3>
+     <h4 id="seasonYear"></h4>
+ </div>
+  </div>
+ <div class="row">
+ <div class="col-md-12">
+<center><h5>Click the header to sort each column</h5></center>
+   <table id="player-data">
+     <tr>
+       <th onclick="sortTable('player-data', 0)">Game Number</th>
+       <th>Game Date</th>
+       <th>Teams</th>
+       <th onclick="sortTable('player-data', 3)">Pass Attempts</th>
+       <th onclick="sortTable('player-data', 4)">Pass Completions</th>
+       <th onclick="sortTable('player-data', 5)">QB Sacks</th>
+       <th onclick="sortTable('player-data', 6)">Pass Interceptions</th>
+       <th onclick="sortTable('player-data', 7)">Passing Yards</th>
+       <th onclick="sortTable('player-data', 8)">Pass Touchdowns</th>
+       <th onclick="sortTable('player-data', 9)">Rushes</th>
+       <th onclick="sortTable('player-data', 10)">Rushing Yards</th>
+       <th onclick="sortTable('player-data', 11)">Rushing Touchdowns</th>
+     </tr>
+     <tr>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td><a href="#passAttemptsChart">Chart</a></td>
+       <td><a href="#passCompletionsChart">Chart</a></td>
+       <td><a href="#qbSacksChart">Chart</a></td>
+       <td><a href="#passInterceptionsChart">Chart</a></td>
+       <td><a href="#passingYardsChart">Chart</a></td>
+       <td><a href="#passTouchdownsChart">Chart</a></td>
+       <td><a href="#rushesChart">Chart</a></td>
+       <td><a href="#rushingYardsChart">Chart</a></td>
+       <td><a href="#rushingTouchdownsChart">Chart</a></td>
+     </tr>
+   </table>
+
+ </div> 
+ </div> 
+ <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to the Top</button>
+<div class="row">
+ <div class="col-md-12">
+ <div id="passAttemptsChart" name="passAttemptsChart">
+ <center><h3>Pass Attempts</h3></center>
+<div class="chart">
+<canvas id="passAttempts"></canvas>
+</div>
+ </div>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="passCompletionsChart" name="passCompletionsChart">
+ <center><h3>Pass Completions</h3></center>
+<div class="chartCompletions">
+<canvas id="passCompletions"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="qbSacksChart" name="qbSacksChart">
+ <center><h3>QB Sacks</h3></center>
+<div class="chartQbSacks">
+<canvas id="qbSacks"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="passInterceptionsChart" name="passInterceptionsChart">
+<center><h3>Pass Interceptions</h3></center>
+<div class="chartPassInterceptions">
+<canvas id="passInterceptions"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="passingYardsChart" name="passingYardsChart">
+<center><h3>Passing Yards</h3></center>
+<div class="chartPassingYards">
+<canvas id="passingYards"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="passTouchdownsChart" name="passTouchdownsChart">
+ <center><h3>Pass Touchdowns</h3></center>
+<div class="chartPassTouchdowns">
+<canvas id="passTouchdowns"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="rushesChart" name="rushesChart">
+ <center><h3>Rushes</h3></center>
+<div class="chartRushes">
+<canvas id="rushes"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="rushingYardsChart" name="rushingYardsChart">
+ <center><h3>Rushing Yards</h3></center>
+<div class="chartRushingYards">
+<canvas id="rushingYards"></canvas>
+</div>
+ </div>
+</div>
+</div>
+ <div class="row">
+ <div class="col-md-12">
+ <div id="rushingTouchdownsChart" name="rushingTouchdownsChart">
+ <center><h3>Rushing Touchdowns</h3></center>
+<div class="chartRushingTouchdowns">
+<canvas id="rushingTouchdowns"></canvas>
+</div>
+ </div>
+</div>
+</div>
+</div>
+</body>
+</html>
