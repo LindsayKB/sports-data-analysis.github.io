@@ -89,7 +89,10 @@ function BuildChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -174,7 +177,10 @@ function BuildCompletionsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -259,7 +265,10 @@ function BuildQBSacksChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -343,7 +352,10 @@ function BuildPassInterceptionsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -427,7 +439,10 @@ function BuildPassingYardsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -511,7 +526,10 @@ function BuildPassTouchdownsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -595,7 +613,10 @@ function BuildRushesChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -679,7 +700,10 @@ function BuildRushingYardsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
@@ -763,7 +787,10 @@ function BuildRushingTouchdownsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 1)',
           'rgba(153, 102, 255, 1)',
            'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)'
+          'rgba(153, 102, 255, 1)',
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)'
         ],
         borderWidth: 1 // Specify bar border width
       }]
