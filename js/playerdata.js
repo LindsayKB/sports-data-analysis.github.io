@@ -71,7 +71,10 @@ function BuildChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -153,7 +156,10 @@ function BuildCompletionsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -235,7 +241,10 @@ function BuildQBSacksChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -316,7 +325,10 @@ function BuildPassInterceptionsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -397,7 +409,10 @@ function BuildPassingYardsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -478,7 +493,10 @@ function BuildPassTouchdownsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -559,7 +577,10 @@ function BuildRushesChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -640,7 +661,10 @@ function BuildRushingYardsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
@@ -721,7 +745,10 @@ function BuildRushingTouchdownsChart(labels, values, chartTitle) {
           'rgba(75, 192, 192, 0.2)',
           'rgba(153, 102, 255, 0.2)',
            'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)'
+          'rgba(153, 102, 255, 0.2)',     
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)'
         ],
         borderColor: [ // Add custom color borders
           'rgba(255,99,132,1)',
