@@ -1,4 +1,4 @@
-var jsonFiles = ['nfl-2543477.json','nfl-2543499.json','nfl-2560800.json'];
+var jsonFiles = ['https://lindsaykb.github.io/sports-data-analysis.github.io/nfl-2543477.json','https://lindsaykb.github.io/sports-data-analysis.github.ionfl-2543499.json','https://lindsaykb.github.io/sports-data-analysis.github.io/nfl-2560800.json'];
 for (var i = 0; i < jsonFiles.length; i++)
 {
   var fileName = jsonFiles[i];
