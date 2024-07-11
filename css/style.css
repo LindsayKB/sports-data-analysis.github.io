@@ -1,7 +1,12 @@
-html{scroll-behavior:smooth}
+html
+{
+	scroll-behavior:smooth;
+	height: 100%;
+}
 body
 {
  background-image: linear-gradient(to bottom right, #143AA2, #3E8DE3);
+ min-height:100%;
 }
 .container
 {
