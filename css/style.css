@@ -1,9 +1,7 @@
 html{scroll-behavior:smooth}
 body
 {
- background:url("../img/wood-floor.jpg");
- background-size:contain;
- background-repeat:repeat;
+ background-image: linear-gradient(to bottom right, #143AA2, #3E8DE3);
 }
 .container
 {
